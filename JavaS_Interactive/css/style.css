@@ -1,0 +1,82 @@
+/*Add CSS styles here*/
+/* #title {
+    font-size: 30px;
+    background-color: red;
+}
+
+.name_time {
+    height: 20px;
+    font-size: 15px;
+    float: right;
+} */
+
+
+#map { height: 700px;
+    width: 100%;
+    display: inline-block;}
+
+.leaflet-popup-content p {
+    margin: 0.2em 0;
+}
+
+#panel {  
+    width: 10%;  
+    padding: 20px;  
+    display: inline-block;  
+    vertical-align: top;  
+    text-align: center;  
+    line-height: 42px;  
+}  
+
+.sequence-control-container {  
+    width: 350px;  
+    height: 60px;  
+    background-color: rgba(255,255,255,0.8);  
+    padding: 10px;  
+    line-height: 45px;  
+    text-align: center;  
+    border: solid gray 1px;  
+}  
+
+.legend-control-container {  
+    width: 200px;  
+    height: 150px;  
+    background-color: rgba(255,255,255,0.8);  
+    padding: 10px;  
+    line-height: 0px;  
+    text-align: center;  
+    border: solid gray 1px;  
+}  
+
+.range-slider {  
+    width: 55%;  
+}  
+
+.step {  
+    width: 20%;  
+}  
+
+.step img {  
+    width: 90%;  
+    height: auto;
+}  
+
+#forward {
+    float: right;
+    height: 40px;
+    width: 45px;
+    background-color:white
+    }
+
+#reverse {  
+    float: left;
+    height: 40px;
+    width: 45px;
+    background-color:white
+}
+.slider-label{
+    font-size: 20px;
+    height:30px;
+    padding:0;
+    margin:0;
+}
